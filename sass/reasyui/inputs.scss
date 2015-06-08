@@ -1,0 +1,17 @@
+/* Placeholder */
+input.placeholder-text,
+.placeholder-text {
+  color: #c6c3c0;
+  opacity: 1;
+}
+
+.placeholder-content {
+  position: relative;
+}
+
+.placeholder-content .placeholder-text {
+  position: absolute;
+  min-width: 200px;
+  top: -2px;
+  left: 7px;
+}

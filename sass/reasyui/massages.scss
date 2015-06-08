@@ -1,0 +1,26 @@
+/**
+ * UI message for ajax.
+ *
+ * @section message
+ */
+.massage-ajax {
+	position: fixed;
+	z-index: 2002;
+	top: 55px;
+	left: 44%;
+	width: 220px;
+	padding: 12px;
+	background: #ffcc00;
+	color: #630;
+	font-weight: bold;
+	text-align: center;
+	-webkit-border-radius: 0 0 4px 4px;
+	   -moz-border-radius: 0 0 4px 4px;
+			border-radius: 0 0 4px 4px;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ed7020), to(#ffcc00));
+	background-image: -webkit-linear-gradient(top, #ed7020, #ffcc00);
+	background-image: -o-linear-gradient(top, #ed7020, #ffcc00);
+	background-image: linear-gradient(to bottom, #ed7020, #ffcc00);
+	background-image: -moz-linear-gradient(top, #ed7020, #ffcc00);
+	filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffed7020', endColorstr='#ffffcc00', GradientType=0);
+}

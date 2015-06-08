@@ -1,0 +1,170 @@
+/**
+ * Reasy UI Reset most use normalize.css and yui3
+ *
+ * Reset for all brower.
+ *
+ * @section reset
+ */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, address, big, cite, code, del, dfn, em, img, ins, kbd,
+q, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd,
+ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+tr, th, td, article, aside, canvas, s, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display definitions
+\* ========================================================================== */
+
+/**
+ * Correct `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav,
+section {
+  display: block;
+}
+
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+[hidden] {
+    display: none;
+}
+address, button, caption, cite, code, dfn, em, input, optgroup, option, select,
+strong, textarea, th, var {
+  font: inherit
+}
+
+/* Links
+\* ========================================================================== */
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+    outline: 0;
+}
+
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background: transparent;
+}
+
+/* Forms
+\* ========================================================================== */
+
+/**
+ * 1. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+button, input, select, textarea {
+    margin: 0; /* 1 */
+    font-size: 100%; /* 2 */
+    vertical-align: baseline; /* 3 */
+    *vertical-align: middle; /* 3 */
+}
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button, select {
+    text-transform: none;
+}
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+button,
+html input[type="button"],      /* 1 */
+input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button; /* 2 */
+    cursor: pointer;            /* 3 */
+    *overflow: visible;         /* 4 */
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+textarea {
+  height: auto;
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* Reset UL list-style for all browsers */
+ul {
+  list-style: none;
+}
+
+
+/* Tables
+\* ========================================================================== */
+
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th {
+  text-align: left;
+}
+
+
+/* Text-level semantics
+\* ========================================================================== */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+sup {
+  vertical-align: text-top;
+}
+sub {
+  vertical-align: baseline;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+}
+del {
+  text-decoration: line-through;
+}
