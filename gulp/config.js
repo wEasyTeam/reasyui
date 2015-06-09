@@ -18,5 +18,9 @@ module.exports = {
     sass: 'sass'
   },
 
-  banner: banner
+  banner: banner,
+
+  modules: ['core', '/dialog', 'input' , 'massage', 'select', 'textboxs',
+      'tip', 'validate'],
+  lang: 'zh-cn'
 };
