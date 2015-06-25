@@ -1,6 +1,6 @@
 /**
  * reasy-ui - The REasy UI for router, and themes built on top of the HTML5 and CSS3.
- * @version v1.0.3.rc
+ * @version V1.0.3.rc
  * @author ET.W
  * @license MIT License (MIT)
  */

@@ -2,7 +2,7 @@
 
 var banner = ['/**',
   ' * <%= pkg.name %> - <%= pkg.description %>',
-  ' * @version v<%= pkg.version %>',
+  ' * @version V<%= pkg.version %>',
   ' * @author <%= pkg.author.name %>',
   ' * @license <%= pkg.licenses[0].type %>',
   ' */',

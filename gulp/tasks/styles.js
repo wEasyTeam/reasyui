@@ -8,7 +8,7 @@ var sass = require('gulp-ruby-sass');
 var addHeader = $.header(config.banner, { pkg : pkg });
 
 gulp.task('sass', function() {
-  return sass(paths.sass + '/reasyui.scss', {
+  return sass(paths.sass + '/', {
       sourcemap: true
     })
     .on('error', function(err) {

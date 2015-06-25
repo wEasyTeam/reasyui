@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var config = require('../config');
 var paths = config.paths;
 var $ = require('gulp-load-plugins')();
+
 var pkg = require('../../package.json');
 var addHeader = $.header(config.banner, { pkg : pkg });
 
